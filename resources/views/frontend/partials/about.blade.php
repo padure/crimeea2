@@ -10,9 +10,10 @@
             </div>
             <div class="col-md-6 order">
                 <div class="titlepage text_align_left">
-                    <h2>About Our Center</h2>
-                    <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-                    <a class="read_more" href="about.html">Read More</a>
+                    <h2>Despre Sauna Crimeea</h2>
+                    <p>
+                        La Sauna Crimeea, vă invităm să vă destindeți și să vă bucurați de o experiență termală excepțională. Situați pe Strada Independenței 16/4, Chișinău 2072, suntem destinația perfectă pentru cei care caută un refugiu de relaxare în inima orașului. Cu o gamă variată de servicii, vă oferim o atmosferă distinctivă unde tradiția întâlnește modernitatea. Pentru rezervări și informații, sunați-ne la +37378953583. Bine ați venit la Sauna Crimeea - locul unde relaxarea devine artă.
+                    </p>
                 </div>
             </div>
         </div>

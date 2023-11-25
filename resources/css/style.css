@@ -490,7 +490,18 @@ button {
 }
 
 .agency figure img {
-    filter: drop-shadow(4px 6px 5px #0d03034f);
+    filter: drop-shadow(4px 6px 5px #0d03034f) saturate(150%) brightness(120%);
+    width: 422px;
+    height: 397px;
+    object-fit: cover;
+    /*border-radius: 0% 90% 20% 40% / 0% 20% 10% 20%;*/
+    border-radius: 50% 20% / 10% 40%;
+    transition: all .7s ease-out;
+}
+
+.agency figure img:hover {
+    cursor: pointer;
+    border-radius: 50% 15% / 15% 35%;
 }
 
 .play_icon {
@@ -716,7 +727,8 @@ button {
 
 #ho_shad:hover.services_box figure img {
     transition: ease-in all 0.5s;
-    box-shadow: 0 0 38px rgba(13, 3, 3, 0.10)
+    box-shadow: 0 0 38px rgba(13, 3, 3, 0.10);
+    cursor: pointer;
 }
 
 #ho_shad:hover .read_more {
@@ -724,6 +736,7 @@ button {
     transition: ease-in all 0.5s;
     color: #fff;
     border: 1px solid #fff;
+    cursor: pointer;
 }
 
 /** end services section **/
@@ -798,10 +811,8 @@ button {
 }
 
 .our_pri p {
-    line-height: 30px;
-    padding-top: 23px;
-    padding-bottom: 30px;
-    color: #fff;
+    line-height: 50px;
+    text-align: left;
 }
 
 .our_priceing .read_more {

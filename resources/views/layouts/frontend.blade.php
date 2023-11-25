@@ -20,34 +20,18 @@
 </head>
 <body>
 <!-- Banner -->
-@include('frontend.partials.banner')
+<div class="full_bg">
+    <!-- header -->
+    @include('frontend.partials.header')
+    <!-- end header inner -->
+    @yield('banner')
+</div>
 <!-- Banner End -->
-<!-- Appoint -->
-{{--@include('frontend.partials.appoint')--}}
-<!-- Appoint End -->
-<!-- Services -->
-@include('frontend.partials.services')
-<!-- Services End -->
-<!-- Pricing -->
-@include('frontend.partials.pricing')
-<!-- Pricing End -->
-<!-- Blog -->
-@include('frontend.partials.blog')
-<!-- Blog End -->
-<!-- About -->
-@include('frontend.partials.about')
-<!-- About End -->
-<!-- Customers -->
-@include('frontend.partials.customers')
-<!-- Customers End -->
+@yield('content')
 <!-- Blade -->
 @include('frontend.partials.footer')
 <!-- Blade End -->
-
-@yield('content')
-
-<!-- Back to Top -->
-<a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+<a href="#" class="btn btn-lg back-to-top text-white"><i class="fa fa-angle-double-up"></i></a>
 <script src="{{ asset('js/jquery.min.js') }}"></script>
 <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 <script src="{{ asset('js/jquery-3.0.0.min.js') }}"></script>

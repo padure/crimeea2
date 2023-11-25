@@ -14,7 +14,7 @@
         <div class="row">
             <div class="col-md-10 offset-md-1">
                 <div class="row">
-                    <div class="col-md-10">
+                    <div class="col-md-12">
                         <div class="our_priceing text_align_center">
                             <div class="our_pri">
                                 <h3>Prețuri pentru Sauna Crimeea</h3>

@@ -236,6 +236,7 @@ button {
 
 .titlepage p {
     padding-top: 0px;
+    line-height: 2.5;
 }
 
 .d_flex {
@@ -698,16 +699,25 @@ button {
 .services .services_box h3{
     color: #fff;
 }
-
+.services_box .read_more{
+    margin: 0 auto;
+}
 .services_box {
     margin-top: 30px;
 }
 
 .services_box figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
 }
 
 .services_box figure img {
+    width: 307px;
+    height: 205px;
+    object-fit: cover;
+    object-position: center center;
     transition: ease-in all 0.5s;
 }
 
@@ -822,9 +832,7 @@ button {
     z-index: 99;
 }
 
-
 /** end priceing section **/
-
 
 /** blog section **/
 
@@ -835,10 +843,24 @@ button {
 }
 
 .latest {
-    background: #fff;
-    padding: 10px;
-    box-shadow: 0 0 69px rgba(13, 3, 3, 0.06);
+    padding: 0px;
     margin-bottom: 55px;
+}
+
+.latest img{
+    box-shadow: 0 0 69px rgba(13, 3, 3, 0.06);
+    padding: 10px;
+    width: 353px;
+    height: 232px;
+    object-position: top;
+    object-fit: cover;
+}
+
+.latest img:hover{
+    transition: all 1s ease-out;
+    cursor: pointer;
+    box-shadow: 0 0 69px rgba(13, 3, 3, 0.06);
+    border-radius: 40% 10% / 10% 40%;
 }
 
 .latest figure {
@@ -931,6 +953,13 @@ button {
     position: relative;
     z-index: 9999;
     padding: 30px 0;
+    transition: all 1s ease-in-out;
+}
+
+.about_img figure img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 69px rgba(13, 3, 3, 0.06);
+    transform: translateY(10px);
 }
 
 .about .titlepage {
@@ -1040,7 +1069,6 @@ button {
 /** footer **/
 
 .footer {
-    margin-top: 90px;
     padding-top: 90px;
     background: #2d2d2d;
     text-align: center;
@@ -1242,4 +1270,10 @@ ul.social_icon li a i:hover {
 
 .portfolio_page .footer {
     margin-top: 60px;
+}
+.back-to-top{
+    right: 20px;
+    position: fixed;
+    bottom: 20px;
+    background-color: #fdc001;
 }

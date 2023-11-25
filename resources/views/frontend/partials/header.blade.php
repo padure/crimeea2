@@ -12,12 +12,12 @@
                 <div class="navbar-area">
                     <nav class="site-navbar">
                         <ul>
-                            <li><a class="active" href="{{ route('home.index') }}">Acasă</a></li>
-                            <li><a href="{{ route('about.index') }}">Despre</a></li>
-                            <li><a href="{{ route('service.index') }}">Servicii</a></li>
-                            <li><a href="{{ route('prices.index') }}">Prețuri</a></li>
-                            <li><a href="{{ route('gallery.index') }}">Galerie</a></li>
-                            <li><a href="{{ route('contacts.index') }}">Contacte</a></li>
+                            <li><a class="{{ $home??'' }}" href="{{ route('home.index') }}">Acasă</a></li>
+                            <li><a class="{{ $about??'' }}" href="{{ route('about.index') }}">Despre</a></li>
+                            <li><a class="{{ $service??'' }}" href="{{ route('service.index') }}">Servicii</a></li>
+                            <li><a class="{{ $prices??'' }}" href="{{ route('prices.index') }}">Prețuri</a></li>
+                            <li><a class="{{ $gallery??'' }}" href="{{ route('gallery.index') }}">Galerie</a></li>
+                            <li><a class="{{ $contacts??'' }}" href="{{ route('contacts.index') }}">Contacte</a></li>
                         </ul>
                         <button class="nav-toggler">
                             <span></span>

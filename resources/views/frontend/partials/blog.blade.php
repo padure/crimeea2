@@ -4,43 +4,40 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="titlepage text_align_center ">
-                    <h2>Latest Blog</h2>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                    <h2>Exploră Frumusețea Noastră</h2>
+                    <p>Descoperă atmosfera unică și serviciile de lux la Sauna Crimeea. O incursiune vizuală în lumea noastră de relaxare și răsfăț.</p>
                 </div>
             </div>
         </div>
         <div class="row d_flex">
             <div class=" col-md-4">
                 <div class="latest">
-                    <figure><img src="images/blog1.jpg" alt="#"/></figure>
-                    <span>16 March</span>
-                    <div class="nostrud">
-                        <h3>Quis Nostrud </h3>
-                        <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-                        <a class="read_more" href="blog.html">Read More</a>
-                    </div>
+                    <figure><img src="{{ asset('images/gallery/img1.jpg') }}" alt="#"/></figure>
                 </div>
             </div>
             <div class=" col-md-4">
                 <div class="latest">
-                    <figure><img src="images/blog2.jpg" alt="#"/></figure>
-                    <span class="yellow">17 March</span>
-                    <div class="nostrud">
-                        <h3>Veniam, Quis </h3>
-                        <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-                        <a class="read_more" href="blog.html">Read More</a>
-                    </div>
+                    <figure><img src="{{ asset('images/gallery/img2.jpg') }}" alt="#"/></figure>
                 </div>
             </div>
             <div class=" col-md-4">
                 <div class="latest">
-                    <figure><img src="images/blog3.jpg" alt="#"/></figure>
-                    <span>18 March</span>
-                    <div class="nostrud">
-                        <h3>Tempor incididunt </h3>
-                        <p>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-                        <a class="read_more" href="blog.html">Read More</a>
-                    </div>
+                    <figure><img src="{{ asset('images/gallery/img3.jpg') }}" alt="#"/></figure>
+                </div>
+            </div>
+            <div class=" col-md-4">
+                <div class="latest">
+                    <figure><img src="{{ asset('images/gallery/img4.jpg') }}" alt="#"/></figure>
+                </div>
+            </div>
+            <div class=" col-md-4">
+                <div class="latest">
+                    <figure><img src="{{ asset('images/gallery/img5.jpg') }}" alt="#"/></figure>
+                </div>
+            </div>
+            <div class=" col-md-4">
+                <div class="latest">
+                    <figure><img src="{{ asset('images/gallery/img6.jpg') }}" alt="#"/></figure>
                 </div>
             </div>
         </div>

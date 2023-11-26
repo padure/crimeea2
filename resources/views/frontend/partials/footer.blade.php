@@ -3,7 +3,7 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-7 px-5">
+                <div class="col-md-6 px-5">
                     <div class="row">
                         <div class="col-lg-8 col-md-12">
                             <div class="hedingh3 text_align_left">
@@ -15,7 +15,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5 px-5">
+                <div class="col-md-6 px-5">
                     <div class="row">
                         <div class="col-lg-6 col-md-12">
                             <div class="hedingh3 text_align_left">

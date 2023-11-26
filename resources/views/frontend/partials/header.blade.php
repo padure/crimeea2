@@ -13,7 +13,7 @@
                     <nav class="site-navbar">
                         <ul>
                             <li><a class="{{ $home??'' }}" href="{{ route('home.index') }}">Acasă</a></li>
-                            <li><a class="{{ $about??'' }}" href="{{ route('about.index') }}">Despre</a></li>
+                            <li><a class="{{ $about??'' }}" href="{{ route('about.index') }}">Despre noi</a></li>
                             <li><a class="{{ $service??'' }}" href="{{ route('service.index') }}">Servicii</a></li>
                             <li><a class="{{ $prices??'' }}" href="{{ route('prices.index') }}">Prețuri</a></li>
                             <li><a class="{{ $gallery??'' }}" href="{{ route('gallery.index') }}">Galerie</a></li>

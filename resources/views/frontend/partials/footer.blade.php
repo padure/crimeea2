@@ -37,7 +37,7 @@
                                         <a href="tel:+37378953583" class="font-weight-bold">+37378953583</a>
                                     </li>
                                     <li><i class="fa fa-envelope" aria-hidden="true"></i>
-                                        <a href="Javascript:void(0)">demo@gmail.com</a>
+                                        <a href="mailto:scrimeea@gmail.com">scrimeea@gmail.com</a>
                                     </li>
                                 </ul>
                             </div>

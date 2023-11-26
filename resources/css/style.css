@@ -821,8 +821,8 @@ button {
 }
 
 .our_pri p {
-    line-height: 50px;
     text-align: left;
+    line-height: 2;
 }
 
 .our_priceing .read_more {

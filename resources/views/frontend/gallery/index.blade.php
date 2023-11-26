@@ -69,6 +69,21 @@
                         <figure><img src="{{ asset('images/gallery/img9.jpg') }}" alt="#"/></figure>
                     </div>
                 </div>
+                <div class=" col-md-4">
+                    <div class="latest">
+                        <figure><img src="{{ asset('images/gallery/img10.jpg') }}" alt="#"/></figure>
+                    </div>
+                </div>
+                <div class=" col-md-4">
+                    <div class="latest">
+                        <figure><img src="{{ asset('images/gallery/img11.jpg') }}" alt="#"/></figure>
+                    </div>
+                </div>
+                <div class=" col-md-4">
+                    <div class="latest">
+                        <figure><img src="{{ asset('images/gallery/img12.jpg') }}" alt="#"/></figure>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

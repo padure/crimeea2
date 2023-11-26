@@ -38,6 +38,10 @@
                 <p><strong>Copii Sub 6 Ani:</strong> Gratuitate cu prezentarea certificatului de naștere</p>
                 <p><strong>Rezervare Minimă:</strong> 4 ore de pură relaxare și răsfăț</p>
                 <p><strong>Închiriere Cu Programare Prealabilă:</strong> Asigură-ți locul în avans pentru o experiență personalizată</p>
+                <p><strong>Ofertă Mangal:</strong> Mangal pe aragaz inclus</p>
+                <p><strong>Accesorii Suplimentare:</strong> Șlapi la intrare, veselă, tacâmuri</p>
+                <p><strong>Facilități în Bucătărie:</strong> Microunde, ceainic la solicitare</p>
+                <p><strong>Ofertă Băuturi:</strong> Apă potabilă, ceai, mere</p>
                 <p><strong>Adresa:</strong> Strada Independenței 16/4, Chișinău 2072</p>
             </div>
         </div>
@@ -56,6 +60,7 @@
         }
         .our_pri p{
             text-align: center!important;
+            line-height: 3;
         }
         .our_pri p:hover{
             cursor: pointer;

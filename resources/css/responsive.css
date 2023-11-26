@@ -289,3 +289,11 @@ File Name: responsive.css
         overflow: visible;
     }
 }
+@media screen and (max-width: 992px) {
+    p{
+        line-height: 2!important;
+    }
+    .titlepage p {
+        line-height: 2!important;
+    }
+}
